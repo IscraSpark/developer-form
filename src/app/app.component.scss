@@ -1,0 +1,45 @@
+.header {
+    background-color: #5255FF;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+
+
+    .logo-text {
+        font-size: 20px;
+        margin: 0;
+        color: #fff;
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .container {
+        border-radius: 6px;
+        border: 1px #000 solid;
+        padding: 10px;
+        overflow-y: scroll;
+        max-height: 80%;
+        
+
+        form {
+            display: flex;
+            flex-direction: column;
+
+            .hobby-buttons {
+                display: flex;
+                
+                button {
+                    margin-bottom: 10px;
+                }
+
+                button + button {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
